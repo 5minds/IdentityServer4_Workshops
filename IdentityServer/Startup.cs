@@ -24,7 +24,7 @@ namespace IdentityServer
             services.AddMvc();
 
              // Configure IdentityServer with in-memory stores, keys, clients and scopes
-            services.AddIdentityServer()
+            var builder = services.AddIdentityServer()
                 .AddDeveloperSigningCredential()
                 .AddInMemoryIdentityResources(Config.GetIdentityResources())
                 .AddInMemoryApiResources(Config.GetApis())
