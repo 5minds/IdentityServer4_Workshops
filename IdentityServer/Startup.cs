@@ -20,7 +20,12 @@ namespace IdentityServer
 
         public void ConfigureServices(IServiceCollection services)
         {
-            var builder = services.AddIdentityServer()
+            // This is for the Quickstart UI
+            services.AddMvc();
+
+             // Configure IdentityServer with in-memory stores, keys, clients and scopes
+            services.AddIdentityServer()
+                .AddDeveloperSigningCredential()
                 .AddInMemoryIdentityResources(Config.GetIdentityResources())
                 .AddInMemoryApiResources(Config.GetApis())
                 .AddInMemoryClients(Config.GetClients());
@@ -42,7 +47,11 @@ namespace IdentityServer
                 app.UseDeveloperExceptionPage();
             }
 
+            app.UseStaticFiles();
+
             app.UseIdentityServer();
+
+            app.UseMvcWithDefaultRoute();
         }
     }
 }
