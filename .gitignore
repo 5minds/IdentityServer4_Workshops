@@ -273,3 +273,7 @@ __pycache__/
 # tools/
 
 # End of https://www.gitignore.io/api/aspnetcore
+
+# Custom Ignore-Pattern
+identityserver4_log.txt
+tempkey.rsa
