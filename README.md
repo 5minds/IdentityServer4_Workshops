@@ -213,5 +213,5 @@ list here; please feel invited to contact us.
 
 ## Contact Information
 
-![Christoph Gnip](mailto:Christoph.Gnip@5minds.de)
-![Robin Lenz](mailto:Robin.Lenz@5minds.de)
+1. [Christoph Gnip](mailto:Christoph.Gnip@5minds.de)
+1. [Robin Lenz](mailto:Robin.Lenz@5minds.de)
