@@ -55,6 +55,17 @@ the last is:
 
 `git checkout Demo_Complete`
 
+This is the list of all tags found in this demo:
+
+1. Demo_Complete
+1. Step1_IDServer_Base_Setup
+1. Step2_WebAPI_Base_Setup
+1. Step3_Use_IdentityServer_QuickstartUI
+1. Step4_Use_Authorization_to_WebAPI
+1. Step5_Add_Users_Client_and_Ressource
+1. Step6_Add_Logout
+1. Step7_Add_Google_External_Provider
+
 To run this demo navigate the IdentityServer 4 folder; start the
 IdentityServer 4:
 
